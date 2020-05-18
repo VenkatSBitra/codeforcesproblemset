@@ -17,6 +17,7 @@ int main(){
                 t /= 10;
             }
             a = a + (max * min);
+            if(min == 0) break;
         }
         cout << a << endl;
     }
